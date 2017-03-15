@@ -1,0 +1,23 @@
+{
+  "name": "steal-babel-plugin-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "steal-tools"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-syntax-exists": "0.0.3",
+    "steal": "github:stealjs/steal#master",
+    "steal-tools": "^1.2.0"
+  },
+  "steal": {
+    "babelOptions": {
+      "plugins": [
+        "syntax-exists"
+      ]
+    }
+  }
+}
